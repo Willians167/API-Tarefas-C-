@@ -9,18 +9,12 @@ Este é um exemplo de uma API para gerenciamento de tarefas, construída em C# u
 - **CRUD de Tarefas:** A API permite a criação, leitura, atualização e exclusão de tarefas.
 - **Filtragem e Ordenação:** As tarefas podem ser filtradas por diferentes critérios, como status, data de criação, prioridade, etc.
 - **Autenticação e Autorização:** A autenticação é necessária para acessar determinados endpoints, e diferentes níveis de autorização são implementados para garantir a segurança dos dados.
+.
 
-### Utilização da API:
-1. **Endpoints:**
-   - `/tasks` - Endpoint para operações CRUD de tarefas.
-   - `/login` - Endpoint para autenticação de usuários.
-   - `/register` - Endpoint para registro de novos usuários.
-   - Outros endpoints para operações adicionais, como filtragem e ordenação.
-
-2. **DTOs (Data Transfer Objects):**
+ **DTOs (Data Transfer Objects):**
    - Utilizados para transferir dados entre a API e o cliente de forma estruturada e segura.
 
-3. **Interfaces:**
+ **Interfaces:**
    - Utilizadas para definir contratos que as classes devem cumprir, promovendo a flexibilidade e extensibilidade do sistema.
 
 ### Pré-requisitos:
